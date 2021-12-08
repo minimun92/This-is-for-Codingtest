@@ -2,13 +2,9 @@ import sys
 input = sys.stdin.readline
 
 data = input().rstrip()
+ans = 1
+for i in range(len(data)-1):
+    if data[i] != data[i+1]:
+        ans += 1
 
-cnt = 0
-for i in range(1, len(data)):
-    if data[i-1] != data[i]:
-        cnt += 1
-
-if cnt%2 == 0:
-    print(cnt//2)
-else :
-    print(cnt//2 + 1)
+print(ans//2)
