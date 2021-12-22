@@ -7,7 +7,7 @@ for i in range(n):
     T[i],P[i] = map(int, input().split())
 
 
-dp = [0] * 25
+dp = [0] * 20
 
 for i in range(n):
     if dp[i] > dp[i+1]:
