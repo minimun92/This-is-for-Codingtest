@@ -5,8 +5,7 @@ input = sys.stdin.readline
 n = int(input())
 q = []
 for i in range(n):
-    data = int(input())
-    heapq.heappush(q,data)
+    heapq.heappush(q, int(input()))
 
 result = 0
 
