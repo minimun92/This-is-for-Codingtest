@@ -24,7 +24,7 @@ while left <= right :
             cnt += 1
             start = data[i]
     
-    # 설치 거리가 좁으면 거리 증가
+    # 설치 거리가 좁으면 거리 증가 -> 공유기 개수가 많음
     if cnt >= c:
         left = mid + 1
         ans = mid
