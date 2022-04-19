@@ -12,7 +12,6 @@ for i in s:
         num += int(i)
 
 ans.sort()
-str = []
 for i in ans:
     print(i, end = '')
 print(num)
